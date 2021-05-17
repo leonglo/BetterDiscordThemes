@@ -1,0 +1,84 @@
+/**
+ * @name Sunset theme
+ * @author LeonTheNeon#7745
+ * @authorId 835286761009184789
+ * @version 1.0
+ * @description Sunset Theme for Better Discord
+ * @instagram leon__glo
+*/
+
+@import url('https://cdn.jsdelivr.net/gh/leonglo/BetterDiscordThemes@main/main.css');
+
+:root {
+  --main-color: #8A61D4;
+  --hover-color: #6742A8;
+  --success-color: #43b581;
+  --danger-color: #982929;
+  --url-color: var(--main-color);
+  --background-image: url('https://i.ytimg.com/vi/0p8neomjH_Q/maxresdefault.jpg');
+  --background-shading: 0%;
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 107%;
+  --background-contrast: 100%;
+  --background-saturation: 100%;
+  --background-grayscale: 0%;
+  --background-invert: 0%;
+  --background-blur: 0px;
+  --background-overlay: rgb(16,7,0,0.6);
+  --user-popout-image: url('https://i.pinimg.com/originals/44/80/c6/4480c6af707d0e13c7f66a9d6d378015.jpg');
+  --user-popout-position: center left;
+  --user-popout-size: 135;
+  --user-popout-repeat: no-repeat;
+  --user-popout-attachment: fixed;
+  --user-popout-brightness: 95%;
+  --user-popout-contrast: 100%;
+  --user-popout-saturation: 100%;
+  --user-popout-grayscale: 0%;
+  --user-popout-invert: 0%;
+  --user-popout-blur: 1px;
+  --user-modal-image: url('https://i.ytimg.com/vi/0p8neomjH_Q/maxresdefault.jpg');
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-repeat: no-repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 116%;
+  --user-modal-contrast: 100%;
+  --user-modal-saturation: 100%;
+  --user-modal-grayscale: 0%;
+  --user-modal-invert: 0%;
+  --user-modal-blur: 3px;
+  --home-icon: url('https://i.imgur.com/TNvbG8J.png');
+  --home-position: center;
+  --home-size: 60px;
+  --channel-unread: var(--main-color);
+  --channel-color: rgb(88,158,183,1);
+  --channel-color: rgb(88,158,183,1);
+  --online-color: #43b581;
+  --idle-color: #faa61a;
+  --dnd-color: #982929;
+  --streaming-color: #593695;
+  --offline-color: #808080;
+  --main-font: 'Whitney';
+  --code-font: Consolas;
+  --channels-width: 220px;
+  --members-width: 240px;
+  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --backdrop-blur: var(--background-blur);
+  --bd-blue: var(--main-color);
+  --bd-blue-hover: var(--hover-color);
+  --bd-blue-active: var(--hover-color);
+}
