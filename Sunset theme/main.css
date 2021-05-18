@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*! Disclaimer: Inspired by the CV main.css */
+/*! The following are default settings */
 :root {
   --main-color: #2780e6;
   --hover-color: #1e63b3;
@@ -264,17 +265,6 @@ textarea,
   white-space: nowrap;
   order: 1;
 }
-.typeWindows-1za-n7 > .wordmark-2iDDfm:before {
-  content: "Sunset";
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 14px;
-  text-shadow: 0 0 3px #000;
-}
-.typeWindows-1za-n7 > .wordmark-2iDDfm:after {
-  content: "v1.0";
-  color: rgba(255, 255, 255, 0.3);
-  font-family: var(--code-font);
-  font-size: 10px;
 }
 .typeWindows-1za-n7 > .wordmark-2iDDfm > svg {
   filter: drop-shadow(0 0 5px var(--main-color));
