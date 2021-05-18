@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*! Disclaimer: Inspired by the CV main.css */
 :root {
   --main-color: #2780e6;
   --hover-color: #1e63b3;
@@ -263,7 +264,18 @@ textarea,
   white-space: nowrap;
   order: 1;
 }
-
+.typeWindows-1za-n7 > .wordmark-2iDDfm:before {
+  content: "Sunset";
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  text-shadow: 0 0 3px #000;
+}
+.typeWindows-1za-n7 > .wordmark-2iDDfm:after {
+  content: "v1.0";
+  color: rgba(255, 255, 255, 0.3);
+  font-family: var(--code-font);
+  font-size: 10px;
+}
 .typeWindows-1za-n7 > .wordmark-2iDDfm > svg {
   filter: drop-shadow(0 0 5px var(--main-color));
 }
@@ -1209,8 +1221,14 @@ textarea,
   font-weight: 700;
   transition: all 0.5s ease-in-out;
 }
+.container-3baos1:before {
+  content: "Sunset";
+  right: 50%;
+  text-align: right;
+  transform: translateX(50%);
+}
 .container-3baos1:after {
-  content: "v6.1.0";
+  content: "v1.0";
   left: 50%;
   text-align: left;
   opacity: 0;
@@ -3411,7 +3429,7 @@ code {
   background-color: var(--background-overlay);
 }
 
-/* USERNAME TAGS */
+/* TAGGED USERS */
 .contents-2mQqc9 > img ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: none;
   color: currentcolor;
@@ -3428,6 +3446,9 @@ code {
 }
 .contents-2mQqc9 > img[src*="144881947557101568"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: "CV Admin";
+}
+.contents-2mQqc9 > img[src*="332394843743584256"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  content: "CV Team";
 }
 .contents-2mQqc9 > img[src*="240437190339854337"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: "CV Team";
@@ -3531,71 +3552,11 @@ code {
 .contents-2mQqc9 > img[src*="245133485688225793"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: "CV Donator";
 }
-.contents-2mQqc9 > img[src*="266991742216175616"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="97549189629636608"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="128948605263413248"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="168481642309091328"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="165581066524950530"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="102621249892544512"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="94553281296084992"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="85410928408924160"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="143476079267414016"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="131917628800237570"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="155379920242081793"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="135130130942132224"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="123340872333918215"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="250721335305568258"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="297041315852713984"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="128006451053592577"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="102009847792291840"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="513423192484872223"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="580867069621567488"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
 .contents-2mQqc9 > img[src*="538745942493495298"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Guide Creator";
+  content: "CV Translator";
 }
 .contents-2mQqc9 > img[src*="265627010733178892"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Guide Creator";
-}
-.contents-2mQqc9 > img[src*="332394843743584256"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Team | Tag Originator";
+  content: "CV Guide Maker";
 }
 .contents-2mQqc9 > img[src*="309976820109803520"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: "Former CV Team";
