@@ -18,6 +18,7 @@
   --streaming-color: #593695;
   --main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
   --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace;
+  --font-display: var(--main-font);
   --text-normal: rgb(220, 221, 222);
   --text-muted: rgb(114, 118, 125);
   --channels-width: 220px;
@@ -264,6 +265,18 @@ textarea,
   font-weight: 600;
   white-space: nowrap;
   order: 1;
+}
+.typeWindows-1za-n7 > .wordmark-2iDDfm:before {
+  content: "ClearVision";
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  text-shadow: 0 0 3px #000;
+}
+.typeWindows-1za-n7 > .wordmark-2iDDfm:after {
+  content: "v6.1.0";
+  color: rgba(255, 255, 255, 0.3);
+  font-family: var(--code-font);
+  font-size: 10px;
 }
 .typeWindows-1za-n7 > .wordmark-2iDDfm > svg {
   filter: drop-shadow(0 0 5px var(--main-color));
@@ -1211,13 +1224,13 @@ textarea,
   transition: all 0.5s ease-in-out;
 }
 .container-3baos1:before {
-  content: "Sunset";
+  content: "ClearVision";
   right: 50%;
   text-align: right;
   transform: translateX(50%);
 }
 .container-3baos1:after {
-  content: "v1.0";
+  content: "v6.1.0";
   left: 50%;
   text-align: left;
   opacity: 0;
@@ -4852,16 +4865,20 @@ code {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.lookOutlined-3sRXeN.colorWhite-rEQuAQ,
-.lookOutlined-3sRXeN.colorPrimary-3b3xI6,
-.lookOutlined-3sRXeN.colorGreen-29iAKY, j .lookOutlined-3sRXeN.colorBrand-3pXr91 {
+.appMount-3lHmkl .lookOutlined-3sRXeN.colorWhite-rEQuAQ,
+.appMount-3lHmkl .lookOutlined-3sRXeN.colorPrimary-3b3xI6,
+.appMount-3lHmkl .lookOutlined-3sRXeN.colorGreen-29iAKY,
+.appMount-3lHmkl .lookOutlined-3sRXeN.colorRed-1TFJan,
+.appMount-3lHmkl .lookOutlined-3sRXeN.colorBrand-3pXr91 {
   background: transparent;
   border-color: var(--main-color);
   color: rgba(255, 255, 255, 0.8);
 }
-.lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover,
-.lookOutlined-3sRXeN.colorPrimary-3b3xI6:hover,
-.lookOutlined-3sRXeN.colorGreen-29iAKY:hover, j .lookOutlined-3sRXeN.colorBrand-3pXr91:hover {
+.appMount-3lHmkl .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover,
+.appMount-3lHmkl .lookOutlined-3sRXeN.colorPrimary-3b3xI6:hover,
+.appMount-3lHmkl .lookOutlined-3sRXeN.colorGreen-29iAKY:hover,
+.appMount-3lHmkl .lookOutlined-3sRXeN.colorRed-1TFJan:hover,
+.appMount-3lHmkl .lookOutlined-3sRXeN.colorBrand-3pXr91:hover {
   background: transparent;
   border-color: var(--hover-color);
   color: #fff;
@@ -7310,25 +7327,29 @@ textarea::-webkit-scrollbar {
   left: 15px;
   margin-top: -2px;
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=My-Account-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e .item-PXvHYJ:hover:before {
+  transform: rotateY(180deg);
+  transition: all 0.15s ease-in-out;
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="My Account-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/person.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Privacy-&-Safety-tab"].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Privacy & Safety-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/security.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Authorized-Apps-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Authorized Apps-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/apps.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Connections-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/link.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Discord-Nitro-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Discord Nitro-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/nitro.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Nitro-Server-Boost-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Nitro Server Boost-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/server_boost.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Library-Inventory-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Library Inventory-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/gift.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Billing-tab].item-PXvHYJ:before {
@@ -7337,7 +7358,7 @@ textarea::-webkit-scrollbar {
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Appearance-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/camera.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Voice-&-Video-tab"].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Voice & Video-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/mic.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Text-&-Images-tab"].item-PXvHYJ:before {
@@ -7358,13 +7379,13 @@ textarea::-webkit-scrollbar {
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Linux-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/linux.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Streamer-Mode-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Streamer Mode-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/videocam.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Advanced-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/bug.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Game-Activity-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Game Activity-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/games.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Overlay-tab].item-PXvHYJ:before {
@@ -7373,7 +7394,7 @@ textarea::-webkit-scrollbar {
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=changelog-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/history.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Hypesquad-Online-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Hypesquad Online-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/hypesquad.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=logout-tab].item-PXvHYJ:before {
@@ -7395,17 +7416,16 @@ textarea::-webkit-scrollbar {
   background: transparent;
 }
 
-.closeButton-1tv5uR {
+.theme-dark .closeButton-1tv5uR {
   border-color: rgba(255, 255, 255, 0.4);
 }
-.closeButton-1tv5uR:hover {
+.theme-dark .closeButton-1tv5uR:hover {
   border-color: rgba(255, 255, 255, 0.6);
   background-color: transparent;
 }
-.closeButton-1tv5uR > svg > path {
+.theme-dark .closeButton-1tv5uR > svg > path {
   fill: rgba(255, 255, 255, 0.6);
 }
-
 .theme-dark .keybind-KpFkfr {
   color: rgba(255, 255, 255, 0.6);
 }
