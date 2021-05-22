@@ -6,30 +6,29 @@
  * @description Customisable Nasa Theme for Better Discord
  * @instagram leon__glo
 */
-
 @import url('https://cdn.jsdelivr.net/gh/leonglo/BetterDiscordThemes@main/Sunset%20theme/main4.css');
 
 :root {
-  --main-color: #C20202;
-  --hover-color: #043CA4;
+  --main-color: #FF0000;
+  --hover-color: #C00000;
   --success-color: #43b581;
   --danger-color: #982929;
-  --url-color: #001AAC;
+  --url-color: #3270D6;
   --background-image: url('https://wallpapercave.com/wp/wp2717179.png');
-  --background-shading: 65%;
+  --background-shading: 20%;
   --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
   --background-attachment: fixed;
-  --background-brightness: 300%;
+  --background-brightness: 320%;
   --background-contrast: 100%;
   --background-saturation: 100%;
   --background-grayscale: 0%;
   --background-invert: 0%;
   --background-blur: 0px;
-  --background-overlay: rgba(0,0,0,0.6);
+  --background-overlay: rgb(0,0,0,0.6);
   --user-popout-image: url('https://wallpapercave.com/wp/wp2717179.png');
-  --user-popout-position: top center;
+  --user-popout-position: center;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
   --user-popout-attachment: fixed;
@@ -41,7 +40,7 @@
   --user-popout-blur: 3px;
   --user-modal-image: url('https://i.redd.it/t0rsvscgq3r31.jpg');
   --user-modal-position: Bottom center;
-  --user-modal-size: 80;
+  --user-modal-size: 80%;
   --user-modal-repeat: no-repeat;
   --user-modal-attachment: fixed;
   --user-modal-brightness: 100%;
@@ -50,18 +49,18 @@
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
   --user-modal-blur: 3px;
-  --home-icon: url('https://i.imgur.com/NRR7I6o.png');
+  --home-icon: url('https://i.imgur.com/HXBdsZX.png');
   --home-position: center;
-  --home-size: 48px;
-  --channel-unread: #BA0000;
-  --channel-color: rgb(63,81,181,1);
-  --channel-color: rgb(63,81,181,1);
-  --online-color: #52A27E;
+  --home-size: 49px;
+  --channel-unread: #FFBC3B;
+  --channel-color: rgb(70,94,228,1);
+  --channel-color: rgb(70,94,228,1);
+  --online-color: #43b581;
   --idle-color: #faa61a;
   --dnd-color: #982929;
   --streaming-color: #593695;
   --offline-color: #808080;
-  --main-font: 'Whitney';
+  --main-font: Whitney;
   --code-font: Consolas;
   --channels-width: 220px;
   --members-width: 240px;
