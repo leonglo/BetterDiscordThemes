@@ -5301,9 +5301,9 @@ textarea::-webkit-scrollbar {
   right: 0;
   bottom: 0;
   left: 0;
-  margin: calc(-2 * var(--popoutblur-user));
+  margin: calc(-2 * 3px);
   background: var(--popoutimage-user) var(--popoutposition-user)/var(--popoutsize-user) var(--popoutrepeat-user) var(--popoutattachment-user);
-  filter: grayscale(var(--popoutgrayscale-user)) sepia(var(--popoutsepia-user)) invert(var(--popoutinvert-user)) brightness(var(--popoutbrightness-user)) contrast(var(--popoutcontrast-user)) saturate(var(--popoutsaturation-user)) blur(var(--popoutblur-user));
+  filter: grayscale(var(--popoutgrayscale-user)) sepia(var(--popoutsepia-user)) invert(var(--popoutinvert-user)) brightness(var(--popoutbrightness-user)) contrast(var(--popoutcontrast-user)) saturate(var(--popoutsaturation-user)) blur 3px);
   z-index: -1;
 }
 .animatorLeft-1EQxU0 > .userPopout-3XzG_A {
